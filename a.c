@@ -2,8 +2,8 @@
 
 int main(int argc, char const *argv[])
 {
-    int a = '\=';
-    printf("%d",a);
-
+    int x = 2, y = 8;
+    x+=y-=4;
+    printf("%d,%d",x,y);
     return 0;
 }
