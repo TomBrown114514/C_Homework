@@ -1,16 +1,22 @@
 #include <stdio.h>
 
+/**
+ * 计算一个正整数的阶乘
+*/
+
 int main(){
     int n;
     int fact(int n);
     printf("请输入一个正整数：");
     scanf("%d",&n);
-    if(n>0) printf("%d ! = %d",n,fact(n));
-    else if(n==0) printf("0!=1");
-    else("负数没有阶乘");
+    printf("正整数%d的阶乘是%d",n,fact(n));
     return 0;
 }
 
 int fact(int n){
-    return n==1?1:n*fact(n-1);
+    int i,f=1;
+    for(i=1;i<=n;i++){
+        f=f*i;
+    }
+    return f;
 }
