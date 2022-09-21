@@ -18,6 +18,6 @@ int hlt(char a,char b,char c,int n){
 int main(int argc, char const *argv[])
 {
     hlt('a','b','c',3);
-    printf("%d",sum);
+    printf("总共移动了%d步",sum);
     return 0;
 }
