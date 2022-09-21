@@ -1,8 +1,6 @@
 #include <stdio.h>
 
-/**
- * 计算一个正整数的阶乘
-*/
+
 
 int main(){
     int n;
@@ -14,6 +12,9 @@ int main(){
 }
 
 int fact(int n){
+    /**
+    * 计算一个正整数的阶乘
+    */
     int i,f=1;
     for(i=1;i<=n;i++){
         f=f*i;
