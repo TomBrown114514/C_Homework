@@ -5,7 +5,8 @@ int main(){
     int fact(int n);
     printf("请输入一个正整数：");
     scanf("%d",&n);
-    printf("正整数%d的阶乘是%d",n,fact(n));
+    printf("正整数%d的阶乘是",n);
+    printf("%d",fact(n));
     return 0;
 }
 
