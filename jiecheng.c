@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-
-
 int main(){
     int n;
     int fact(int n);
