@@ -4,13 +4,14 @@
  * 保留两位小数
 */
 int main(){
-    float a,avg,s=0;
-    printf("请输入5个实数：");
-    for(int i = 1; i <= 5; i++){  
-        scanf("%f",&a);
-        s = s + a;
+    float socer,avg;
+    int i;
+    for(i=1;i<=3;i++){
+        printf("请输入第%d位同学的C语言成绩:",i);
+        scanf("%f",&socer);
+        avg=avg+socer;
     }
-    avg = s / 5;
-    printf("这五个数的平均值avg=%.2f",avg);
+    avg=avg/3;
+    printf("这三位C语言的平均成绩是:%.2f",avg);
     return 0;
 }
