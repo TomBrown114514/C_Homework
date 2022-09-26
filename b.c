@@ -2,7 +2,8 @@
 
 int main(int argc, char const *argv[])
 {
-    float a = 1e+9;
-    printf("%e",(double)a);
+    int i = 1;
+    int a = (i++)+(++i);
+    printf("%d",a);
     return 0;
 }
